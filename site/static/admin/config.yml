@@ -19,13 +19,13 @@ collections: # A list of collections the CMS should be able to edit
     label: "Pages"
     folder: "site/content/pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-#    fields: # The fields each document in this collection have
+    fields: # The fields each document in this collection have
 #      - {label: "Title", name: "title", widget: "string"}
 #      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
 #      - {label: "Heading", name: "heading", widget: "string"}
 #      - {label: "Image", name: "image", widget: "image", required: false}
 #      - {label: "Logo", name: "image", widget: "image", required: false}
-#      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
