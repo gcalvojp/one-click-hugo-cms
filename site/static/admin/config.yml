@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Heading", name: "heading", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Logo", name: "image", widget: "image", required: false}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
